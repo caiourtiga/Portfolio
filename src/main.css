@@ -4,9 +4,15 @@
 
 .navbar {
     font-weight: 500;
-
+    background-color: black;
+    height: 4rem;
 }
 
 .nav-item {
     padding: 0.2rem;
 }   
+
+body {
+    background-color: rgb(5, 5, 19);
+    color: white;
+}

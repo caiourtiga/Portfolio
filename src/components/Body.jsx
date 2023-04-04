@@ -1,6 +1,11 @@
 const Body = () => {
     return (
-      <h1>batata</h1>
+      <body>
+        <div className="container">
+          <h1>batata</h1>
+        </div>
+      </body>
+      
     )
   }
   
