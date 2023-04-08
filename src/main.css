@@ -1,16 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-brand {
-    height: 44px;
+    height: 2.75rem;
     font-size: x-large;
 }
 
 .navbar {
     font-weight: 500;
     background-color: black;
-    height: 64px;
+    height: 5rem;
 }
 
 .nav-item {
     padding: 4px;
+    font-size: large;
+    background-color: black;
 }   
 
 body {
@@ -19,8 +26,25 @@ body {
 }
 
 .about {
-    padding: 48px;
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 600px;
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-img {
+    gap: 0rem;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
 }

@@ -18,6 +18,9 @@ const Navbar = () => {
           <a class="nav-link" href="https://www.linkedin.com/in/caiourtiga/">Redes</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="https://github.com/caiourtiga/zport">Repositório</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Contato</a>
         </li>
       </ul>
