@@ -25,11 +25,12 @@ body {
     color: white;
 }
 
-.about {
+.intro {
     margin-top: 6.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .cta-img {
@@ -41,10 +42,27 @@ body {
     align-items: center;
 }
 
-.socials {
-    margin-top: 10rem;
+.skills {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+}
 
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.simg {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.form-text {
+    color: white !important;
 }

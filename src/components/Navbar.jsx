@@ -12,10 +12,10 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" href="#sobre">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/caiourtiga/">Redes</a>
+          <a class="nav-link" href="#redes">Redes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/caiourtiga/zport">Repositório</a>
