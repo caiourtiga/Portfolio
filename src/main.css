@@ -25,21 +25,14 @@ body {
     color: white;
 }
 
-.intro {
-    margin-top: 6.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.carousel-inner {
     margin-bottom: 10rem;
+    object-fit: cover;
 }
 
-.cta-img {
-    gap: 0rem;
-    display: flex;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
+.caimg {
+    height: 50vh;
 }
 
 .skills {
@@ -48,6 +41,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.timg {
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 .socials {
