@@ -4,23 +4,23 @@ const Body = () => {
     return (
       <body>
         <div>
-          <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleInterval" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="5000">
                 <img src="/assets/carou/3441_Puerto_mediterraneo.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="5000">
                 <img src="/assets/carou/DortorDordrecht.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="5000">
                 <img src="https://i.ytimg.com/vi/b2gaTEMyaa4/sddefault.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
