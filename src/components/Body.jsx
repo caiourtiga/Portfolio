@@ -81,17 +81,17 @@ const Body = () => {
           <form action="https://formsubmit.co/caiourtiga@hotmail.com" method="POST">
             <div className="mb-3">
               <label for="InputEmail1" className="form-label"><h3>Email address</h3></label>
-              <input type="email" name="email" className="form-control" id="InputEmail1" aria-describedby="emailHelp" required></input>
+              <input type="email" name="email" className="form-control" aria-describedby="emailHelp" required></input>
               <div id="emailHelp" className="form-text">fulano@hotmail.com</div>
             </div>
             <div className="mb-3">
               <label for="InputPhone" className="form-label"><h3>Telefone</h3></label>
-              <input type="number" name="phone" min="8" className="form-control" id="InputWhats" aria-describedby="WhatsHelp" required></input>
+              <input type="number" name="phone" min="8" className="form-control" aria-describedby="WhatsHelp" required></input>
               <div id="WhatsHelp" className="form-text">Somente Whatsapp</div>
             </div>
-            <div className="mb-3">
+            <div className="mb-3 form-group">
               <label for="Textarea1" name="message" className="form-label"><h3>Mensagem</h3></label>
-              <textarea className="form-control" id="Textarea1" rows="3" required></textarea>
+              <textarea className="form-control" name="message" rows="3" required></textarea>
             </div>
             <button type="submit" className="btn btn-primary">Enviar</button>
           </form>
