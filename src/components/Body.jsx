@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 
 const Body = () => {
     return (
-      <body>
+      <div>
         <div>
           <div id="carouselExampleInterval" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="5000">
-                <img src="/assets/carou/3441_Puerto_mediterraneo.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-md-block">
+                <img src="/assets/carou/3441_Puerto_mediterraneo.jpg" className="img-fluid d-block w-100 caimg" alt="..."></img>
+                <div className="carousel-caption mx-auto d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="5000">
-                <img src="/assets/carou/DortorDordrecht.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-md-block">
+                <img src="/assets/carou/DortorDordrecht.jpg" className="img-fluid d-block w-100 caimg" alt="..."></img>
+                <div className="carousel-caption mx-auto d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="5000">
-                <img src="https://i.ytimg.com/vi/b2gaTEMyaa4/sddefault.jpg" class="img-fluid d-block w-100 caimg" alt="..."></img>
-                <div class="carousel-caption d-md-block">
+                <img src="https://i.ytimg.com/vi/b2gaTEMyaa4/sddefault.jpg" className="img-fluid d-block w-100 caimg" alt="..."></img>
+                <div className="carousel-caption mx-auto d-md-block">
                   <p>Seja bem vindo, sou Programador Web e será um prazer atendê-lo.</p>
                 </div>
               </div>
@@ -77,26 +77,26 @@ const Body = () => {
           </div>
         </div>
         <br/>
-        <div className="p-3 was-validated">
+        <div className="p-3 was-validated" id="contato">
           <form action="https://formsubmit.co/caiourtiga@hotmail.com" method="POST">
             <div className="mb-3">
-              <label for="InputEmail1" className="form-label"><h3>Email address</h3></label>
+              <label htmlFor="InputEmail1" className="form-label"><h3>Email address</h3></label>
               <input type="email" name="email" className="form-control" aria-describedby="emailHelp" required></input>
               <div id="emailHelp" className="form-text">fulano@hotmail.com</div>
             </div>
             <div className="mb-3">
-              <label for="InputPhone" className="form-label"><h3>Telefone</h3></label>
+              <label htmlFor="InputPhone" className="form-label"><h3>Telefone</h3></label>
               <input type="number" name="phone" min="8" className="form-control" aria-describedby="WhatsHelp" required></input>
               <div id="WhatsHelp" className="form-text">Somente Whatsapp</div>
             </div>
             <div className="mb-3 form-group">
-              <label for="Textarea1" name="message" className="form-label"><h3>Mensagem</h3></label>
+              <label htmlFor="Textarea1" name="message" className="form-label"><h3>Mensagem</h3></label>
               <textarea className="form-control" name="message" rows="3" required></textarea>
             </div>
             <button type="submit" className="btn btn-primary">Enviar</button>
           </form>
         </div>
-      </body>     
+      </div>     
     )
   }
   

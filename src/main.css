@@ -27,14 +27,18 @@ body {
     color: white;
 }
 
-
 .carousel-inner {
     margin-bottom: 10rem;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .caimg {
     height: 70vh;
+}
+
+.card {
+    max-width: 36rem;
 }
 
 .skills {
