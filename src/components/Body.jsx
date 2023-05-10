@@ -53,7 +53,7 @@ const Body = () => {
               <img src="/assets/tech/react.png" alt="" className="img-fluid timg"/>
             </div>
             <div className="col clearfix">
-              <p>Biotecnologista formado pela Universidade de Brasília (UnB), com três anos de experiência em laboratórios de cultura de tecidos vegetais. Amante da Tecnologia venho me capacitando para exercer a função de Desenvolvedor de Software e, no futuro, unir esse trabalho ao mundo da Biologia. Atuo como Dev Front-end usando React e Bootstrap, mas sempre aberto a aprender e usar outras tecnologias. Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas áreas de industrias, pesquisa e ambientais.</p>
+              <p>Biotecnologista formado pela Universidade de Brasília (UnB), com três anos de experiência em laboratórios de cultura de tecidos vegetais. Amante da Tecnologia venho me capacitando para exercer a função de Desenvolvedor de Software e, no futuro, unir esse trabalho ao mundo da Biologia. Atuo como Dev Front-end usando React e Bootstrap, mas sempre aberto a aprender e usar outras tecnologias. Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas áreas de Industrias, Pesquisa e Ambientais.</p>
             </div>
           </div>
         </div>
