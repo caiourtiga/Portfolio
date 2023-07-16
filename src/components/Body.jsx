@@ -39,22 +39,22 @@ const Body = () => {
         <div>
         <h5 className="text-center" id="sobre"> Sobre </h5>
           <div className="container skills">
-          <div className="row row-cols-auto g-5">
-            <div className="col">
-             <img src="/assets/tech/html.png" alt="" className="img-fluid timg"/>
-            </div>
-            <div className="col">
-              <img src="/assets/tech/css.png" alt="" className="img-fluid timg"/>
-            </div>
-            <div className="col">
-              <img src="/assets/tech/js.png" alt="" className="img-fluid timg"/>
-            </div>
-            <div className="col">
-              <img src="/assets/tech/react.png" alt="" className="img-fluid timg"/>
-            </div>
-            <div className="col clearfix">
-              <p>Biotecnologista formado pela Universidade de Brasília (UnB), com três anos de experiência em laboratórios de cultura de tecidos vegetais. Amante da Tecnologia venho me capacitando para exercer a função de Desenvolvedor de Software e, no futuro, unir esse trabalho ao mundo da Biologia. Atuo como Dev Front-end usando React e Bootstrap, mas sempre aberto a aprender e usar outras tecnologias. Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas áreas de Industrias, Pesquisa e Ambientais.</p>
-            </div>
+            <div className="row row-cols-auto g-5">
+              <div className="col">
+              <img src="/assets/tech/html.png" alt="" className="img-fluid timg"/>
+              </div>
+              <div className="col">
+                <img src="/assets/tech/css.png" alt="" className="img-fluid timg"/>
+              </div>
+              <div className="col">
+                <img src="/assets/tech/js.png" alt="" className="img-fluid timg"/>
+              </div>
+              <div className="col">
+                <img src="/assets/tech/react.png" alt="" className="img-fluid timg"/>
+              </div>
+              <div className="col clearfix">
+                <p>Biotecnologista formado pela Universidade de Brasília (UnB), com três anos de experiência em laboratórios de cultura de tecidos vegetais. Amante da Tecnologia venho me capacitando para exercer a função de Desenvolvedor de Software e, no futuro, unir esse trabalho ao mundo da Biologia. Atuo como Dev Front-end usando React e Bootstrap, mas sempre aberto a aprender e usar outras tecnologias. Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas áreas de Industrias, Pesquisa e Ambientais.</p>
+              </div>
           </div>
         </div>
         </div>
