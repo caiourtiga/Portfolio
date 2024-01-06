@@ -27,10 +27,15 @@ body {
     color: white;
 }
 
-.carousel-inner {
-    margin-bottom: 10rem;
-    object-fit: cover;
-    overflow: hidden;
+.cardcontent {
+    opacity: 0;
+    transition: 0.6s;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.cardcontent:hover {
+    opacity: 1;
 }
 
 .caimg {
