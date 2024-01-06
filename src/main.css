@@ -10,7 +10,7 @@
 
 .navbar {
     font-weight: 500;
-    background-color: black;
+
     height: 5rem;
     z-index: 2;
 }
@@ -18,7 +18,7 @@
 .nav-item {
     padding: 4px;
     font-size: large;
-    background-color: black;
+
     z-index: 2;
 }   
 
