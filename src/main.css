@@ -51,10 +51,11 @@ body {
 
 .skills {
     margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.28rem;
 }
 
 .timg {
@@ -67,7 +68,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20rem;
+    margin-bottom: 8rem;
+    font-size: 1.4rem;
 }
 
 .simg {

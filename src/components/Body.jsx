@@ -8,9 +8,9 @@ const Body = () => {
         <img src="/assets/tech/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-4 rounded-4" />
         <div className="container skills">
           <div className="row">
-            <div className="mx-auto col-lg-7">
+            <div className="mx-auto col-lg-8">
               <p>&ensp;Biotecnologista, formado pela Universidade de Brasília (UnB), atuando como Desenvolvedor.
-                Possuo competências de Front-end, trabalhando com React enquanto busco o Full Stack.
+                Possuo competências de Front-end, trabalhando com React e Wordpress enquanto busco o Full Stack.
                 Sempre disposto a aprender e usar novas tecnologias.
                 Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas
                 áreas de Industria, Pesquisa e Ambiental.</p>
@@ -18,7 +18,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid skills">
+      <div className="container-fluid">
         <div className="row text-center g-3">
           <div className="col-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
@@ -57,23 +57,41 @@ const Body = () => {
         </div>
       </div>
       <br />
-      <h5 className="text-center" id="redes"> Redes </h5>
-      <div className="container socials text-center">
-        <div className="row g-5">
-          <div className="col-md-auto">
-            <a href="https://github.com/caiourtiga/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/github.png" alt="Github" className="img-fluid img-thumbnail simg" />
-            </a>
+      <div className="container socials " id="redes">
+        <div className="row p-2 ">
+          <div className="container-fuid col-auto">
+            <div className="col-md-auto p-2">
+              <i class="bi bi-github p-2"></i>
+              <a className="link-light" href="https://github.com/caiourtiga/" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+            </div>
+            <div className="col-md-auto p-2">
+              <i class="bi bi-linkedin p-2"></i>
+              <a className="link-light" href="https://www.linkedin.com/in/caiourtiga/" target="_blank" rel="noopener noreferrer">
+                Linkedin
+              </a>
+            </div>
+            <div className="col-md-auto p-2">
+              <i class="bi bi-discord p-2"></i>
+              <a className="link-light" href="https://discord.com/users/531591118498854503" target="_blank" rel="noopener noreferrer">
+                Discord
+              </a>
+            </div>
           </div>
-          <div className="col-md-auto">
-            <a href="https://www.linkedin.com/in/caiourtiga/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/linkedin.png" alt="Linkedin" className="img-fluid img-thumbnail simg" />
-            </a>
-          </div>
-          <div className="col-md-auto">
-            <a href="https://discord.com/users/531591118498854503" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/discord.png" alt="Discord" className="img-fluid img-thumbnail simg" />
-            </a>
+          <div className="container-fuid col-auto">
+            <div className="col-md-auto p-2">
+              <i class="bi bi-whatsapp p-2"></i>
+              <a className="link-light" href="https://web.whatsapp.com/send?phone=61999272298" target="_blank" rel="noopener noreferrer">
+                Whatsapp
+              </a>
+            </div>
+            <div className="col-md-auto p-2">
+              <i class="bi bi-envelope-fill p-2"></i>
+              <a className="link-light" href="mailto:caiourtiga@hotmail.com" target="_blank" rel="noopener noreferrer">
+                Email
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +102,7 @@ const Body = () => {
             <div className="mb-3 col-lg-4 offset-lg-2">
               <label htmlFor="InputEmail1" className="form-label"><h3>Email</h3></label>
               <input type="email" name="email" id="InputEmail1" className="form-control" aria-describedby="emailHelp" required></input>
-              <div id="emailHelp" className="form-text">fulano@hotmail.com</div>
+              <div id="emailHelp" className="form-text">seuemail@hotmail.com</div>
             </div>
             <div className="mb-3 col-lg-4">
               <label htmlFor="InputPhone" className="form-label"><h3>Telefone</h3></label>
