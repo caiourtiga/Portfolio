@@ -5,7 +5,7 @@ const Body = () => {
     <div className="my-4">
       <br />
       <div>
-        <img src="/assets/tech/html.png" alt="" className="img-fluid timg mx-auto d-block my-4" />
+        <img src="/assets/tech/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-4 rounded-4" />
         <div className="container skills">
           <div className="row">
             <div className="mx-auto col-lg-7">
@@ -19,35 +19,40 @@ const Body = () => {
         </div>
       </div>
       <div className="container-fluid skills">
-        <div className="row text-center g-2">
+        <div className="row text-center g-3">
           <div className="col-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
             <div className="card-img-overlay cardcontent">
-              <h5 className="card-title">Cerâmica</h5>
-              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-              <a href="#" className="btn btn-primary">Ver</a>
+              <h5 className="card-title">Conceito 1</h5>
+              <p className="card-text">Site conceito para a empresa Plugreen</p>
+              <a href="https://pgreenv1.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
             </div>
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <div className="card-img-overlay cardcontent">
+              <h5 className="card-title">Conceito 2</h5>
+              <p className="card-text">Site conceito para a empresa Plugreen</p>
+              <a href="https://plugreenrascunho.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
+            </div>
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
-          <div className="col-6 col-lg-3">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg" />
+          <div className="col-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
           </div>
         </div>
       </div>
