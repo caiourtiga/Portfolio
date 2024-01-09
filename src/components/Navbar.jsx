@@ -9,16 +9,16 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="">Início</a>
+          <a className="nav-link active" aria-current="page" href="/">Início</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#sobre">Sobre</a>
+          <a className="nav-link" href="/#projetos">Projetos</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#redes">Redes</a>
+          <a className="nav-link" href="/#redes">Redes</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#contato">Contato</a>
+          <a className="nav-link" href="/#contato">Contato</a>
         </li>
       </ul>
     </div>

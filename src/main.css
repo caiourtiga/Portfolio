@@ -32,17 +32,13 @@ body {
 .cardcontent {
     opacity: 0;
     transition: 0.6s;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.90);
     height: 100%;
     width: 100%;
 }
 
 .cardcontent:hover {
     opacity: 1;
-}
-
-.caimg {
-    max-height: 70vh;
 }
 
 .card {

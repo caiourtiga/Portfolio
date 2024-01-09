@@ -5,7 +5,7 @@ const Body = () => {
     <div className="my-4">
       <br />
       <div>
-        <img src="/assets/tech/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-4 rounded-4" />
+        <img src="/assets/tech/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
         <div className="container skills">
           <div className="row">
             <div className="mx-auto col-lg-8">
@@ -18,41 +18,43 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
           <div className="col-md-6 col-lg-3 card bg-transparent ">
-            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/thumbs.jpeg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
             <div className="card-img-overlay cardcontent">
-              <h5 className="card-title">Conceito 1</h5>
-              <p className="card-text">Site conceito para a empresa Plugreen</p>
+              <h5 className="card-title h4">Conceito 1</h5>
+              <p className="card-text h5">Site conceito para a empresa Plugreen</p>
+              <p className="card-text">Feito com React+Vite para todas as telas</p>
               <a href="https://pgreenv1.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/inte2.png" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
             <div className="card-img-overlay cardcontent">
-              <h5 className="card-title">Conceito 2</h5>
-              <p className="card-text">Site conceito para a empresa Plugreen</p>
+            <h5 className="card-title h4">Conceito 2</h5>
+              <p className="card-text h5">Site conceito para a empresa Plugreen</p>
+              <p className="card-text">Feito com React+Vite para desktops e tablets</p>
               <a href="https://plugreenrascunho.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img rounded-0" />
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
           </div>
         </div>
       </div>
@@ -102,7 +104,7 @@ const Body = () => {
             <div className="mb-3 col-lg-4 offset-lg-2">
               <label htmlFor="InputEmail1" className="form-label"><h3>Email</h3></label>
               <input type="email" name="email" id="InputEmail1" className="form-control" aria-describedby="emailHelp" required></input>
-              <div id="emailHelp" className="form-text">seuemail@hotmail.com</div>
+              <div id="emailHelp" className="form-text">seuemail@email.com</div>
             </div>
             <div className="mb-3 col-lg-4">
               <label htmlFor="InputPhone" className="form-label"><h3>Telefone</h3></label>
