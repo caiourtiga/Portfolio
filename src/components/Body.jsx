@@ -21,7 +21,7 @@ const Body = () => {
       <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
           <div className="col-md-6 col-lg-3 card bg-transparent ">
-            <img src="/assets/images/thumbs.jpeg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
+            <img src="/assets/images/thumbs.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
             <div className="card-img-overlay cardcontent">
               <h5 className="card-title h4">Conceito 1</h5>
               <p className="card-text h5">Site conceito para a empresa Plugreen</p>
