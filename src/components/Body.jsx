@@ -21,7 +21,7 @@ const Body = () => {
       <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
           <div className="col-md-6 col-lg-3 card bg-transparent ">
-            <img src="/assets/images/thumbs.jpeg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/thumbs.jpeg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
             <div className="card-img-overlay cardcontent">
               <h5 className="card-title h4">Conceito 1</h5>
               <p className="card-text h5">Site conceito para a empresa Plugreen</p>
@@ -30,7 +30,7 @@ const Body = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte2.png" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/inte2.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
             <div className="card-img-overlay cardcontent">
             <h5 className="card-title h4">Conceito 2</h5>
               <p className="card-text h5">Site conceito para a empresa Plugreen</p>
@@ -39,22 +39,22 @@ const Body = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
           <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success  rounded-0" />
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
         </div>
       </div>
