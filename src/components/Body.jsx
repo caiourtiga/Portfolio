@@ -10,7 +10,7 @@ const Body = () => {
           <div className="row">
             <div className="mx-auto col-lg-8">
               <p>&ensp;Biotecnologista, formado pela Universidade de Brasília (UnB), atuando como Desenvolvedor.
-                Possuo competências de Front-end, trabalhando com React e Wordpress enquanto busco o Full Stack.
+                Possuo competências de Front end, trabalhando com React e Wordpress enquanto busco o Full Stack.
                 Sempre disposto a aprender e usar novas tecnologias.
                 Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas
                 áreas de Industria, Pesquisa e Ambiental.</p>
