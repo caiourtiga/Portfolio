@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { projetos } from './Projetos';
 
 const Body = () => {
   return (
@@ -20,7 +21,18 @@ const Body = () => {
       </div>
       <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
-          <div className="col-md-6 col-lg-3 card bg-transparent ">
+          {projetos.map((projeto) => (
+            <div className="col-md-6 col-lg-3 card bg-transparent" key={projeto.id}>
+              <img src={projeto.image} alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
+              <div className="card-img-overlay cardcontent">
+                <h5 className="card-title h4">{projeto.title}</h5>
+                <p className="card-text h5">{projeto.text}</p>
+                <p className="card-text">{projeto.text2}</p>
+                <a href={projeto.link} target="_blank" className="btn btn-success">Ver</a>
+              </div>
+            </div>
+          ))}
+          {/* <div className="col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/thumbs.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
             <div className="card-img-overlay cardcontent">
               <h5 className="card-title h4">Conceito 1</h5>
@@ -32,12 +44,12 @@ const Body = () => {
           <div className="col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/inte2.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
             <div className="card-img-overlay cardcontent">
-            <h5 className="card-title h4">Conceito 2</h5>
+              <h5 className="card-title h4">Conceito 2</h5>
               <p className="card-text h5">Site conceito para a empresa Plugreen</p>
               <p className="card-text">Feito com React+Vite para desktops e tablets</p>
               <a href="https://plugreenrascunho.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
@@ -63,19 +75,19 @@ const Body = () => {
         <div className="row p-2 ">
           <div className="container-fuid col-auto">
             <div className="col-md-auto p-2">
-              <i class="bi bi-github p-2"></i>
+              <i className="bi bi-github p-2"></i>
               <a className="link-light" href="https://github.com/caiourtiga/" target="_blank" rel="noopener noreferrer">
                 Github
               </a>
             </div>
             <div className="col-md-auto p-2">
-              <i class="bi bi-linkedin p-2"></i>
+              <i className="bi bi-linkedin p-2"></i>
               <a className="link-light" href="https://www.linkedin.com/in/caiourtiga/" target="_blank" rel="noopener noreferrer">
                 Linkedin
               </a>
             </div>
             <div className="col-md-auto p-2">
-              <i class="bi bi-discord p-2"></i>
+              <i className="bi bi-discord p-2"></i>
               <a className="link-light" href="https://discord.com/users/531591118498854503" target="_blank" rel="noopener noreferrer">
                 Discord
               </a>
@@ -83,13 +95,13 @@ const Body = () => {
           </div>
           <div className="container-fuid col-auto">
             <div className="col-md-auto p-2">
-              <i class="bi bi-whatsapp p-2"></i>
+              <i className="bi bi-whatsapp p-2"></i>
               <a className="link-light" href="https://web.whatsapp.com/send?phone=61999272298" target="_blank" rel="noopener noreferrer">
                 Whatsapp
               </a>
             </div>
             <div className="col-md-auto p-2">
-              <i class="bi bi-envelope-fill p-2"></i>
+              <i className="bi bi-envelope-fill p-2"></i>
               <a className="link-light" href="mailto:caiourtiga@hotmail.com" target="_blank" rel="noopener noreferrer">
                 Email
               </a>
