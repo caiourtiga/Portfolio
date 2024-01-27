@@ -65,9 +65,6 @@ const Body = () => {
           <div className="col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
         </div>
       </div>
       <br />
