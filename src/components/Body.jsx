@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import { projetos } from './Projetos';
+import { useTranslation } from 'react-i18next';
+
+
 
 const Body = () => {
+
+
   return (
     <div className="my-4">
       <br />
@@ -15,6 +20,7 @@ const Body = () => {
                 Sempre disposto a aprender e usar novas tecnologias.
                 Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas
                 áreas de Industria, Pesquisa e Ambiental.</p>
+                <p></p>
             </div>
           </div>
         </div>
@@ -67,6 +73,9 @@ const Body = () => {
           </div>
         </div>
       </div>
+
+
+
       <br />
       <div className="container socials " id="redes">
         <div className="row p-2 ">

@@ -1,4 +1,5 @@
-export const projetos = [{
+export const projetos = [
+    {
     id:1,
     image: "/assets/images/thumbs.png",
     title: "Conceito 1",
