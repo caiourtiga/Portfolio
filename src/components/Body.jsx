@@ -15,7 +15,7 @@ const Body = () => {
     <div className="my-4">
       <br />
       <div>
-        <img src="/assets/tech/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
+        <img src="/assets/images/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
         <div className="container skills">
           <div className="row">
             <div className="mx-auto col-lg-8">
