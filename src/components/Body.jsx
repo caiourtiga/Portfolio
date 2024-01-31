@@ -3,8 +3,8 @@ import { projetos } from './Projetos';
 import { useTranslation, Trans } from 'react-i18next';
 
 const lngs = {
-  en: { nativeName: 'English' },
-  de: { nativeName: 'Deutsch' }
+  pt: { nativeName: 'Português' },
+  en: { nativeName: 'English' }
 };
 
 const Body = () => {
@@ -15,6 +15,13 @@ const Body = () => {
     <div className="my-4">
       <br />
       <div>
+        <div>
+          {Object.keys(lngs).map((lng) => (
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
         <img src="/assets/images/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
         <div className="container skills">
           <div className="row">
@@ -24,42 +31,25 @@ const Body = () => {
                 Sempre disposto a aprender e usar novas tecnologias.
                 Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas
                 áreas de Industria, Pesquisa e Ambiental.</p>
-                <p></p>
+              <p></p>
             </div>
           </div>
         </div>
       </div>
       <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
-          {projetos.map((projeto) => (
-            <div className="col-md-6 col-lg-3 card bg-transparent" key={projeto.id}>
-              <img src={projeto.image} alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
+          {/* // render all titles from array  */}
+          {t('description', { returnObjects: true }).map((item) => (
+            <div className="col-md-6 col-lg-3 card bg-transparent" key={item.id}>
+              <img src={item.image} alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
               <div className="card-img-overlay cardcontent">
-                <h5 className="card-title h4">{projeto.title}</h5>
-                <p className="card-text h5">{projeto.text}</p>
-                <p className="card-text">{projeto.text2}</p>
-                <a href={projeto.link} target="_blank" className="btn btn-success">Ver</a>
+                <h5 className="card-title h4">{item.title}</h5>
+                <p className="card-text h5">{item.text}</p>
+                <p className="card-text">{item.text2}</p>
+                <a href={item.link} target="_blank" className="btn btn-success">Ver</a>
               </div>
             </div>
           ))}
-          {/* <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/thumbs.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-            <div className="card-img-overlay cardcontent">
-              <h5 className="card-title h4">Conceito 1</h5>
-              <p className="card-text h5">Site conceito para a empresa Plugreen</p>
-              <p className="card-text">Feito com React+Vite para todas as telas</p>
-              <a href="https://pgreenv1.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte2.png" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-            <div className="card-img-overlay cardcontent">
-              <h5 className="card-title h4">Conceito 2</h5>
-              <p className="card-text h5">Site conceito para a empresa Plugreen</p>
-              <p className="card-text">Feito com React+Vite para desktops e tablets</p>
-              <a href="https://plugreenrascunho.netlify.app/" target="_blank" className="btn btn-success">Ver</a>
-            </div>
-          </div> */}
           <div className="col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
@@ -77,34 +67,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-
-
-      <div>
-      <div>
-          {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng].nativeName}
-            </button>
-          ))}
-        </div>
-        <p className="App-link">
-
-          
-          
-
-          {t(('description.part2'), { returnObjects: true })}
-
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t('part2')}
-        </a>
-      </div>
-
+      
       <br />
       <div className="container socials " id="redes">
         <div className="row p-2 ">

@@ -12,12 +12,12 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     debug: true,
-    fallbackLng: 'en',
+    fallbackLng: 'pt',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
     resources: {
-      en: {
+      pt: {
         translation: {
           description: [
               {
@@ -49,15 +49,39 @@ i18n
           
         }
       },
-      de: {
-        translation: {
-          description: {
-            part1: 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
-            part2: 'Lerne React'
-          }
-        }
+      en: { translation: {
+        description: [
+            {
+                id: 1,
+                image: "/assets/images/thumbs.png",
+                title: "Concept 1",
+                text: "Concept website for Plugreen company",
+                text2: "Built with React+Vite for all screens. Features a decarbonization calculator based on its own API",
+                link: "https://pgreenv1.netlify.app/"
+            },
+            {
+                id: 2,
+                image: "/assets/images/inte2.png",
+                title: "Concept 2",
+                text: "Concept website for Plugreen company",
+                text2: "Built with React+Vite for desktops and tablets. Features a decarbonization calculator based on its own API",
+                link: "https://plugreenrascunho.netlify.app/"
+            },
+            {
+                id: 3,
+                image: "/assets/images/pgreenco.png",
+                title: "Official Plugreen Website",
+                text: "Official page of the Plugreen company",
+                text2: "Built with Wordpress for all screens",
+                link: "https://plugreen.co/"
+            }
+        ],
+          part2: 'Learn React'
+        
+      }
       }
     }
   });
 
 export default i18n;
+
