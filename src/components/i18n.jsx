@@ -19,8 +19,7 @@ i18n
     resources: {
       en: {
         translation: {
-          description: {
-            part1: [
+          description: [
               {
                   id: 1,
                   image: "/assets/images/thumbs.png",
@@ -47,7 +46,7 @@ i18n
               }
           ],
             part2: 'Learn React'
-          }
+          
         }
       },
       de: {

@@ -101,7 +101,7 @@ const Body = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t('description.part2')}
+          {t('part2')}
         </a>
       </div>
 
