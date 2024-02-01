@@ -3,8 +3,9 @@ import { projetos } from './Projetos';
 import { useTranslation, Trans } from 'react-i18next';
 
 const lngs = {
-  pt: { nativeName: 'Português' },
-  en: { nativeName: 'English' }
+  en: { nativeName: 'English' },
+  pt: { nativeName: 'Português' }
+
 };
 
 const Body = () => {
@@ -15,9 +16,9 @@ const Body = () => {
     <div className="my-4">
       <br />
       <div>
-        <div>
+        <div className="container text-center">
           {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            <button className="btn btn-success p-1 m-1" key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
               {lngs[lng].nativeName}
             </button>
           ))}
@@ -26,11 +27,7 @@ const Body = () => {
         <div className="container skills">
           <div className="row">
             <div className="mx-auto col-lg-8">
-              <p>&ensp;Biotecnologista, formado pela Universidade de Brasília (UnB), atuando como Desenvolvedor.
-                Possuo competências de Front end, trabalhando com React e Wordpress enquanto busco o Full Stack.
-                Sempre disposto a aprender e usar novas tecnologias.
-                Tenho forte preferência por trabalhos de Software, porém não recuso oportunidades nas
-                áreas de Industria, Pesquisa e Ambiental.</p>
+              <p>&ensp;{t('Hero')}</p>
               <p></p>
             </div>
           </div>
@@ -38,7 +35,6 @@ const Body = () => {
       </div>
       <div className="container-fluid" id="projetos">
         <div className="row text-center g-3">
-          {/* // render all titles from array  */}
           {t('description', { returnObjects: true }).map((item) => (
             <div className="col-md-6 col-lg-3 card bg-transparent" key={item.id}>
               <img src={item.image} alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
@@ -46,7 +42,7 @@ const Body = () => {
                 <h5 className="card-title h4">{item.title}</h5>
                 <p className="card-text h5">{item.text}</p>
                 <p className="card-text">{item.text2}</p>
-                <a href={item.link} target="_blank" className="btn btn-success">Ver</a>
+                <a href={item.link} target="_blank" className="btn btn-success">{t('Ver')}</a>
               </div>
             </div>
           ))}
@@ -67,7 +63,6 @@ const Body = () => {
           </div>
         </div>
       </div>
-      
       <br />
       <div className="container socials " id="redes">
         <div className="row p-2 ">
@@ -114,19 +109,19 @@ const Body = () => {
             <div className="mb-3 col-lg-4 offset-lg-2">
               <label htmlFor="InputEmail1" className="form-label"><h3>Email</h3></label>
               <input type="email" name="email" id="InputEmail1" className="form-control" aria-describedby="emailHelp" required></input>
-              <div id="emailHelp" className="form-text">seuemail@email.com</div>
+              <div id="emailHelp" className="form-text">{t('Emailhint')}</div>
             </div>
             <div className="mb-3 col-lg-4">
-              <label htmlFor="InputPhone" className="form-label"><h3>Telefone</h3></label>
+              <label htmlFor="InputPhone" className="form-label"><h3>{t('Phone')}</h3></label>
               <input type="number" name="phone" id="InputPhone" min="8" className="form-control" aria-describedby="WhatsHelp" required></input>
-              <div id="WhatsHelp" className="form-text">Somente Whatsapp</div>
+              <div id="WhatsHelp" className="form-text">{t('Phonehint')}</div>
             </div>
             <div className="mb-3 form-group offset-lg-2 col-lg-8">
-              <label htmlFor="Textarea1" name="message" className="form-label"><h3>Mensagem</h3></label>
+              <label htmlFor="Textarea1" name="message" className="form-label"><h3>{t('Message')}</h3></label>
               <textarea className="form-control" name="message" id="Textarea1" rows="3" required></textarea>
             </div>
             <div className="w-100"></div>
-            <button type="submit" className="btn btn-lg btn-primary mx-auto col-auto col-lg-2 mb-4 fw-semibold formbutton">Enviar</button>
+            <button type="submit" className="btn btn-lg btn-primary mx-auto col-auto col-lg-2 mb-4 fw-semibold formbutton">{t('Sendbt')}</button>
           </div>
         </form>
       </div>
