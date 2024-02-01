@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
-import { projetos } from './Projetos';
 import { useTranslation, Trans } from 'react-i18next';
-
-const lngs = {
-  en: { nativeName: 'English' },
-  pt: { nativeName: 'Português' }
-
-};
 
 const Body = () => {
 
   const { t, i18n } = useTranslation();
+  
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className="my-4">
       <br />
       <div>
         <div className="container text-center">
-          {Object.keys(lngs).map((lng) => (
-            <button className="btn btn-success p-1 m-1" key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng].nativeName}
-            </button>
-          ))}
+          <button className="usbutton container text-center m-1" onClick={() => changeLanguage("en")}> <span className="bttext"> EN </span> </button>
+          <button className="brasilbutton container text-center m-1" onClick={() => changeLanguage("pt")}> <span className="bttext"> PT </span> </button>
         </div>
         <img src="/assets/images/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
         <div className="container skills">

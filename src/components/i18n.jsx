@@ -90,7 +90,7 @@ i18n
           Nav2: 'Media',
           Nav3: 'Networks',
           Nav4: 'Contact',
-          Hero: 'Biotechnologist, graduated from the University of Brasília (UnB), currently working as a Developer. I possess Frontend skills, working with React and Wordpress while aiming for Full Stack expertise. Always eager to learn and utilize new technologies. Despite a strong preference for Software-related work, I am open to opportunities in the areas of Industry, Research, and Environmental fields.',
+          Hero: 'Biotechnologist, graduated from the University of Brasília (UnB), turned Developer. Working as a Frontend Dev, with React and Wordpress while aiming to become Full Stack. Always willing to learn and use new technologies. Despite having a strong preference for Software-related work I am open to opportunities in the areas of Industry, Research, and Environmental fields.',
           Ver: 'View',
           Emailhint: 'youremail@email.com',
           Phone: 'Phone',

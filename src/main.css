@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@400;700;900&family=Reem+Kufi:wght@400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -21,12 +21,38 @@
     padding: 4px;
     font-size: large;
     z-index: 2;
-}   
+}
 
 body {
     background-color: rgb(5, 5, 19);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.brasilbutton {
+    font-size: 1.4rem;
+    max-width: 3.1rem;
+    max-height: 4rem;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: URL(/br.svg);
+}
+
+.usbutton {
+    font-size: 1.4rem;
+    max-width: 3rem;
+    max-height: 4rem;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: URL(/us.svg);
+}
+
+.bttext {
+    opacity: 0
 }
 
 .cardcontent {
