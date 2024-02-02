@@ -87,8 +87,8 @@ i18n
             }
           ],
           Nav1: 'Start',
-          Nav2: 'Media',
-          Nav3: 'Networks',
+          Nav2: 'Projects',
+          Nav3: 'Media',
           Nav4: 'Contact',
           Hero: 'Biotechnologist, graduated from the University of Brasília (UnB), turned Developer. Working as a Frontend Dev, with React and Wordpress while aiming to become Full Stack. Always willing to learn and use new technologies. Despite having a strong preference for Software-related work I am open to opportunities in the areas of Industry, Research, and Environmental fields.',
           Ver: 'View',
