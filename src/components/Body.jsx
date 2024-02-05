@@ -40,20 +40,17 @@ const Body = () => {
               </div>
             </div>
           ))}
-          <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
+          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
+          </div>          
+          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
-          <div className="col-md-6 col-lg-3 card bg-transparent">
+          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
             <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
+          </div>
+          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
+            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
           </div>
         </div>
       </div>

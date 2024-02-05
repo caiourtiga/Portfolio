@@ -24,25 +24,33 @@ i18n
               id: 1,
               image: "/assets/images/thumbs.png",
               title: "Conceito 1",
-              text: "Site conceito para a empresa Plugreen",
-              text2: "Feito com React+Vite para todas as telas. Possui calculadora de descarbonização baseada em API própria",
+              text: "Site conceito para a empresa Plugreen.",
+              text2: "Feito com React+Vite para todas as telas. Possui calculadora de descarbonização baseada em API própria.",
               link: "https://pgreenv1.netlify.app/"
             },
             {
               id: 2,
               image: "/assets/images/inte2.png",
               title: "Conceito 2",
-              text: "Site conceito para a empresa Plugreen",
-              text2: "Feito com React+Vite para desktops e tablets. Possui calculadora de descarbonização baseada em API própria",
+              text: "Site conceito para a empresa Plugreen.",
+              text2: "Feito com React+Vite para desktops e tablets. Possui calculadora de descarbonização baseada em API própria.",
               link: "https://plugreenrascunho.netlify.app/"
             },
             {
               id: 3,
               image: "/assets/images/pgreenco.png",
               title: "Site oficial Plugreen",
-              text: "Pagina oficial da empresa Plugreen",
-              text2: "Feito com Wordpress para todas as telas",
+              text: "Pagina oficial da empresa Plugreen.",
+              text2: "Feito com Wordpress para todas as telas.",
               link: "https://plugreen.co/"
+            },
+            {
+              id: 4,
+              image: "/assets/images/btcscreen.png",
+              title: "Bitcoin Liber",
+              text: "Meu guia de Bitcoin para todos.",
+              text2: "Feito com React+Vite para todas as telas.",
+              link: "https://bitcoinliber.vercel.app/"
             }
           ],
           Nav1: 'Início',
@@ -65,25 +73,33 @@ i18n
               id: 1,
               image: "/assets/images/thumbs.png",
               title: "Concept 1",
-              text: "Concept website for Plugreen company",
-              text2: "Built with React+Vite for all screens. Features a decarbonization calculator based on its own API",
+              text: "Concept website for the Plugreen company.",
+              text2: "Built with React+Vite for all screens. Features a decarbonization calculator based on its own API.",
               link: "https://pgreenv1.netlify.app/"
             },
             {
               id: 2,
               image: "/assets/images/inte2.png",
               title: "Concept 2",
-              text: "Concept website for Plugreen company",
-              text2: "Built with React+Vite for desktops and tablets. Features a decarbonization calculator based on its own API",
+              text: "Concept website for the Plugreen company.",
+              text2: "Built with React+Vite for desktops and tablets. Features a decarbonization calculator based on its own API.",
               link: "https://plugreenrascunho.netlify.app/"
             },
             {
               id: 3,
               image: "/assets/images/pgreenco.png",
               title: "Official Plugreen Website",
-              text: "Official page of the Plugreen company",
-              text2: "Built with Wordpress for all screens",
+              text: "Official page of the Plugreen company.",
+              text2: "Built with Wordpress for all screens.",
               link: "https://plugreen.co/"
+            },
+            {
+              id: 4,
+              image: "/assets/images/btcscreen.png",
+              title: "Bitcoin Liber",
+              text: "My Bitcoin guide for everybody.",
+              text2: "Built with React+Vite for all screens.",
+              link: "https://bitcoinliber.vercel.app/"
             }
           ],
           Nav1: 'Start',
