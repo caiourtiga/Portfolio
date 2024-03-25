@@ -24,8 +24,8 @@
 }
 
 body {
-    background-color: rgb(5, 5, 19);
-    color: white;
+
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -55,6 +55,11 @@ body {
     opacity: 0
 }
 
+.card {
+    padding: 0 !important;
+    max-width: 28.8rem;
+}
+
 .cardcontent {
     opacity: 0;
     transition: 0.6s;
@@ -65,10 +70,6 @@ body {
 
 .cardcontent:hover {
     opacity: 1;
-}
-
-.card {
-    max-width: 36rem;
 }
 
 .skills {
@@ -94,14 +95,7 @@ body {
     font-size: 1.4rem;
 }
 
-.simg {
-    width: 12.5rem;
-    height: 12.5rem;
-}
 
-.form-text {
-    color: white !important;
-}
 
 .formbutton {
     font-size: 1.4rem;

@@ -17,7 +17,7 @@ const Body = () => {
           <button className="usbutton container text-center m-1" onClick={() => changeLanguage("en")}> <span className="bttext"> EN </span> </button>
           <button className="brasilbutton container text-center m-1" onClick={() => changeLanguage("pt")}> <span className="bttext"> PT </span> </button>
         </div>
-        <img src="/assets/images/1662402601960.jpg" alt="" className="img-fluid timg mx-auto d-block my-5 rounded-4" />
+        <img src="/assets/images/1662402601960.jpg" alt="" className="timg mx-auto d-block my-5 rounded-4" />
         <div className="container skills">
           <div className="row">
             <div className="mx-auto col-lg-8">
@@ -28,30 +28,18 @@ const Body = () => {
         </div>
       </div>
       <div className="container-fluid" id="projetos">
-        <div className="row text-center g-3">
+        <div className="row text-center g-3 ">
           {t('description', { returnObjects: true }).map((item) => (
-            <div className="col-md-6 col-lg-3 card bg-transparent" key={item.id}>
-              <img src={item.image} alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-              <div className="card-img-overlay cardcontent">
+            <div className="col-md-6 col-lg-3 card rounded-4 mx-auto" key={item.id}>
+              <img src={item.image} alt="" className="card-img rounded-4" />
+              <div className="card-img-overlay cardcontent text-light rounded-4 ">
                 <h5 className="card-title h4">{item.title}</h5>
                 <p className="card-text h5">{item.text}</p>
                 <p className="card-text">{item.text2}</p>
                 <a href={item.link} target="_blank" className="btn btn-success">{t('Ver')}</a>
               </div>
             </div>
-          ))}
-          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/macaco.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>          
-          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/cer.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
-          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/marsh.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
-          <div className="d-none d-lg-block col-md-6 col-lg-3 card bg-transparent">
-            <img src="/assets/images/inte.jpg" alt="" className="img-fluid galeimg card-img border border-4 border-success rounded-4" />
-          </div>
+          ))}          
         </div>
       </div>
       <br />
@@ -60,19 +48,19 @@ const Body = () => {
           <div className="container-fuid col-auto">
             <div className="col-md-auto p-2">
               <i className="bi bi-github p-2"></i>
-              <a className="link-light" href="https://github.com/caiourtiga/" target="_blank" rel="noopener noreferrer">
+              <a className="link-dark" href="https://github.com/caiourtiga/" target="_blank" rel="noopener noreferrer">
                 Github
               </a>
             </div>
             <div className="col-md-auto p-2">
               <i className="bi bi-linkedin p-2"></i>
-              <a className="link-light" href="https://www.linkedin.com/in/caiourtiga/" target="_blank" rel="noopener noreferrer">
+              <a className="link-dark" href="https://www.linkedin.com/in/caiourtiga/" target="_blank" rel="noopener noreferrer">
                 Linkedin
               </a>
             </div>
             <div className="col-md-auto p-2">
               <i className="bi bi-discord p-2"></i>
-              <a className="link-light" href="https://discord.com/users/531591118498854503" target="_blank" rel="noopener noreferrer">
+              <a className="link-dark" href="https://discord.com/users/531591118498854503" target="_blank" rel="noopener noreferrer">
                 Discord
               </a>
             </div>
@@ -80,13 +68,13 @@ const Body = () => {
           <div className="container-fuid col-auto">
             <div className="col-md-auto p-2">
               <i className="bi bi-whatsapp p-2"></i>
-              <a className="link-light" href="https://web.whatsapp.com/send?phone=61999272298" target="_blank" rel="noopener noreferrer">
+              <a className="link-dark" href="https://web.whatsapp.com/send?phone=61999272298" target="_blank" rel="noopener noreferrer">
                 Whatsapp
               </a>
             </div>
             <div className="col-md-auto p-2">
               <i className="bi bi-envelope-fill p-2"></i>
-              <a className="link-light" href="mailto:caiourtiga@hotmail.com" target="_blank" rel="noopener noreferrer">
+              <a className="link-dark" href="mailto:caiourtiga@hotmail.com" target="_blank" rel="noopener noreferrer">
                 Email
               </a>
             </div>
